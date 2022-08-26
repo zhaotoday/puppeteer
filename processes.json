@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "fzstyj-poster-service",
+      "exec_mode": "cluster",
+      "instances": "max",
+      "watch": ["src"],
+      "ignore_watch": ["node_modules", "logs"],
+      "script": "./index.js"
+    }
+  ]
+}
